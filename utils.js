@@ -9,3 +9,7 @@ showMessage('title')
 /* multi
 line
 comment */
+
+var price = 25
+
+showMessage(price)
