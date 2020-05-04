@@ -10,6 +10,11 @@ showMessage('title')
 line
 comment */
 
-var price = 25
+// let taxRate = 0.8
+// let price = 1.1 + 1.3
 
-showMessage(price)
+const amount = 0
+
+
+
+showMessage(--amount)
