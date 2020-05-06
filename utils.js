@@ -2,13 +2,12 @@ function showMessage(message) {
   document.getElementById('message').textContent = message
 }
 
-let name = 'prash'
-let message = `Hello
+let amount = Number.parseFloat('123.3A')
+// amount = amount.toString()
 
-
-${name}`
-
+// message = message.substring(1)
 //single comment
+// message = message.length
 
 /* multi
 line
@@ -17,5 +16,4 @@ comment */
 // let taxRate = 0.8
 // let price = 1.1 + 1.3
 
-showMessage(message)
-console.log(message)
+showMessage(amount)
