@@ -16,8 +16,19 @@ comment */
 // let taxRate = 0.8
 // let price = 1.1 + 1.3
 
-let saved = 10
-saved = null
+// let saved = 10
+// saved = null
 
-showMessage(saved)
-console.log(saved)
+// let person = {
+//   name: 'John',
+//   secondName: 'Mohan'
+// }
+//
+// showMessage(person.name)
+// console.log
+
+let price = 20
+
+if ( price !== 15 ) {
+  showMessage('discounted')
+}
