@@ -27,8 +27,17 @@ comment */
 // showMessage(person.name)
 // console.log
 
-let price = 20
+// let price = 20
+//
+// if ( price !== 15 ) {
+//   showMessage('discounted')
+// }
 
-if ( price !== 15 ) {
-  showMessage('discounted')
+let price = 1
+
+if (price === 5) {
+  showMessage('true')
+} else if (){
+  showMessage('false')
+
 }
