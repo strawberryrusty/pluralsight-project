@@ -33,11 +33,23 @@ comment */
 //   showMessage('discounted')
 // }
 
-let price = 1
+// let price = 1
+//
+// if (price === 5) {
+//   showMessage('true')
+// } else if (price >=   1){
+//   showMessage('false')
+// } else {
+//   showMessage('neither')
+// }
 
-if (price === 5) {
-  showMessage('true')
-} else if (){
-  showMessage('false')
 
-}
+//ternary operator
+
+// let price = 20
+//
+// let message = (price > 5) ? 'yes' : 'no'
+//
+// showMessage(message )
+
+//
