@@ -46,10 +46,8 @@ comment */
 
 //ternary operator
 
-// let price = 20
-//
-// let message = (price > 5) ? 'yes' : 'no'
-//
-// showMessage(message )
+let price = 20
 
-//
+let message = (price > 5) ? 'yes' : 'no'
+
+showMessage(message )
