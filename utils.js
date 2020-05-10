@@ -19,19 +19,19 @@ comment */
 // let saved = 10
 // saved = null
 
-// let person = {
-//   name: 'John',
-//   secondName: 'Mohan'
-// }
-//
-// showMessage(person.name)
-// console.log
+let person = {
+  name: 'John',
+  secondName: 'Mohan'
+}
 
-// let price = 20
-//
-// if ( price !== 15 ) {
-//   showMessage('discounted')
-// }
+showMessage(person.name)
+console.log
+
+let price = 20
+
+if ( price !== 15 ) {
+  showMessage('discounted')
+}
 
 let price = 1
 
