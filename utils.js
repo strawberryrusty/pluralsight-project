@@ -2,6 +2,13 @@ function showMessage(message) {
   document.getElementById('message').textContent = message
 }
 
+function changePercentOff(percentage) {
+  document.getElementById('percent-off').textContent = percentage + '% off'
+}
+
+changePercentOff(32)
+
+
 // let amount = Number.parseFloat('123.3A')
 // amount = amount.toString()
 
@@ -44,10 +51,77 @@ comment */
 // }
 
 
-ternary operator
+// ternary operator
 
-let price = 20
+// let price = 20
+//
+// let message = (price > 5) ? 'yes' : 'no'
+//
+// showMessage(message )
 
-let message = (price > 5) ? 'yes' : 'no'
+// for (let i = 0; i < 5; i++ ) {
+//   console.log(i)
+// }
 
-showMessage(message )
+// let i = 4
+//
+// while (i > 0) {
+//   console.log(i)
+//   i--
+// }
+
+//do while loop
+
+//
+// let i = -4
+//
+// do {
+//   console.log(i)
+//   i--
+// } while (i > 0)
+
+
+// let myFunction = function (message, firstName) {
+//   console.log(message)
+//   console.log(firstName)
+// }
+//
+// myFunction('Hello', 'John')
+
+
+
+// let key = 42
+//
+// function getSecretCode(value) {
+//   let code = value * key
+//   return code
+//   //or you can just do return value * 42
+// }
+//
+// let secretCode =  secretCode(2)
+// showMessage(secretCode)
+
+
+
+//FUNCTION in a functions and global/local scope
+
+// let key = 42
+//
+// function getSecretCode(value) {
+//
+//   let keyGenerator = function() {
+//     let key = 12
+//     console.log('in keyGenerator: ', key)
+//     return key
+//   }
+//   //when this function finishes executing this key, no longer exists
+//
+//   let code = value * keyGenerator()
+//   console.log(' in getSecretCode: ', key)
+//   return code
+//   //this console.log refers to the outer key
+// }
+//
+// let secretCode =  getSecretCode(2)
+//
+// showMessage(secretCode)
