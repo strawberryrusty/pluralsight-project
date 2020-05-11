@@ -19,29 +19,29 @@ comment */
 // let saved = 10
 // saved = null
 
-let person = {
-  name: 'John',
-  secondName: 'Mohan'
-}
+// let person = {
+//   name: 'John',
+//   secondName: 'Mohan'
+// }
+//
+// showMessage(person.name)
+// console.log
+//
+// let price = 20
+//
+// if ( price !== 15 ) {
+//   showMessage('discounted')
+// }
 
-showMessage(person.name)
-console.log
-
-let price = 20
-
-if ( price !== 15 ) {
-  showMessage('discounted')
-}
-
-let price = 1
-
-if (price === 5) {
-  showMessage('true')
-} else if (price >=   1){
-  showMessage('false')
-} else {
-  showMessage('neither')
-}
+// let price = 1
+//
+// if (price === 5) {
+//   showMessage('true')
+// } else if (price >=   1){
+//   showMessage('false')
+// } else {
+//   showMessage('neither')
+// }
 
 
 ternary operator
