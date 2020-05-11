@@ -1,12 +1,6 @@
-function showMessage(message) {
-  document.getElementById('message').textContent = message
-}
-
-function changePercentOff(percentage) {
-  document.getElementById('percent-off').textContent = percentage + '% off'
-}
-
-changePercentOff(32)
+// function showMessage(message) {
+//   document.getElementById('message').textContent = message
+// }
 
 
 // let amount = Number.parseFloat('123.3A')
@@ -105,23 +99,35 @@ comment */
 
 //FUNCTION in a functions and global/local scope
 
-let key = 42
+// let key = 42
+//
+// function getSecretCode(value) {
+//
+//   let keyGenerator = function() {
+//     let key = 12
+//     console.log('in keyGenerator: ', key)
+//     return key
+//   }
+//   //when this function finishes executing this key, no longer exists
+//
+//   let code = value * keyGenerator()
+//   console.log(' in getSecretCode: ', key)
+//   return code
+//   //this console.log refers to the outer key
+// }
+//
+// let secretCode =  getSecretCode(2)
+//
+// showMessage(secretCode)
 
-function getSecretCode(value) {
+//DOM
 
-  let keyGenerator = function() {
-    let key = 12
-    console.log('in keyGenerator: ', key)
-    return key
-  }
-  //when this function finishes executing this key, no longer exists
-
-  let code = value * keyGenerator()
-  console.log(' in getSecretCode: ', key)
-  return code
-  //this console.log refers to the outer key
+function showMessage(message) {
+  document.getElementById('message').textContent = message
 }
 
-let secretCode =  getSecretCode(2)
+function changePercentOff(percentage) {
+  document.getElementById('percent-off').textContent = percentage + '% off'
+}
 
-showMessage(secretCode)
+changePercentOff(32)
