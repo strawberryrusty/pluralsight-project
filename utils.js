@@ -131,3 +131,41 @@ function changePercentOff(percentage) {
 }
 
 changePercentOff(32)
+
+// let mySymbol = Symbol()
+
+// let person = {
+//   name:'John',
+//   age: 32,
+//   partTime: false,
+//   showInfo: function() {
+//     showMessage(this.name + 'is' + this.age)
+//   }
+//   // [mySymbol]: 'secret info was can access only through the symbol'
+// }
+//
+// person.showInfo()
+
+//objects methods/this keyword
+
+// let person = {
+//   name: 'John',
+//   age: 32,
+//   partTime: false,
+//   showInfo: function(dummyAge) {
+//     showMessage(this.name + ' is ' + dummyAge)
+//   }
+//   // [mySymbol]: 'secret info was can access only through the symbol'
+// }
+//
+// person.showInfo(99)
+
+//common object methods
+
+let dateToday = new Date()
+
+showMessage(dateToday.toDateString())
+
+showMessage( Math.abs(-42))
+
+showMessage( Math.floor(43.01))
