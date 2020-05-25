@@ -197,3 +197,40 @@ button.addEventListener('click', function() {
   // review.classList.toggle('d-none')
   //^ this also  works as a toggle
 })
+
+// arrays
+
+
+const arr = ['a','b','c']
+
+// console.log(typeof arr)
+
+// console.log(Array.isArray(arr)) //checks if its an arrays
+
+
+//accessing array items
+
+// console.log(arr)
+
+//manipulating array
+
+//push
+// arr.push('0', 'prash')
+//
+// console.log(arr)
+
+//popp
+
+const last = arr.pop()
+
+console.log(arr, last)
+
+// shift
+
+first = arr.shift()
+
+console.log(arr, first)
+
+//unshift
+
+ 
