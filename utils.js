@@ -162,10 +162,26 @@ changePercentOff(32)
 
 //common object methods
 
-let dateToday = new Date()
+// let now = new Date()
+//
+// showMessage(now.toDateString())
+//
+// showMessage( Math.abs(-42))
+//
+// showMessage( Math.floor(43.01))
+//
+// let s = 'Hello'
+//
+// showMessage(s.charAt(0))
 
-showMessage(dateToday.toDateString())
 
-showMessage( Math.abs(-42))
+const header = document.getElementById('message')
 
-showMessage( Math.floor(43.01))
+header.style.color = 'red'
+header.style.fontWeight = '100'
+
+const button = document.getElementById('see-review')
+
+button.addEventListener('click', function() {
+  console.log('click')
+})
