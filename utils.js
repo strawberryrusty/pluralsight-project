@@ -227,10 +227,8 @@ console.log(arr, last)
 
 // shift
 
-first = arr.shift()
-
-console.log(arr, first)
+// first = arr.shift()
+//
+// console.log(arr, first)
 
 //unshift
-
- 
