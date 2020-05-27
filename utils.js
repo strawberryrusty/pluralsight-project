@@ -201,7 +201,7 @@ button.addEventListener('click', function() {
 // arrays
 
 
-const arr = ['a','b','c']
+// const arr = ['a','b','c']
 
 // console.log(typeof arr)
 
@@ -219,11 +219,11 @@ const arr = ['a','b','c']
 //
 // console.log(arr)
 
-//popp
+//pop
 
-const last = arr.pop()
-
-console.log(arr, last)
+// const last = arr.pop()
+//
+// console.log(arr, last)
 
 // shift
 
@@ -232,3 +232,12 @@ console.log(arr, last)
 // console.log(arr, first)
 
 //unshift
+
+
+//Arrays in the dOm
+
+const containers = document.getElementsByClassName('container')
+
+console.log(containers)
+
+containers[2].classList.add('d-none')
