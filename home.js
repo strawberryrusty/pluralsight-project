@@ -1,10 +1,6 @@
-let app = {
-  productId: 1235,
-  name: 'prash'
-}
+'use strict'
 
-function random() {
-  console.log(app.portfolio)
-}
+productId: 1235
 
-console.log(random())
+console.log(productId)
+ 
